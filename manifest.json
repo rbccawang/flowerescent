@@ -3,15 +3,11 @@
     "version":"1.0",
     "description":"Feel safe, Stay safe",
     "manifest_version":2,
-    "icons": { "16" : "",
-               "48" : "",
-               "128" : ""},
     "permissions": [
         "activeTab",
         "storage"
     ],
     "browser_action":{
-      "default_icon": "",
       "default_popup":"popup.html"
     }
   }
