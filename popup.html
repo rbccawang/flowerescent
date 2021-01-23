@@ -3,77 +3,19 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+          <script src="popup.js" defer></script>
+          <link rel="stylesheet" href="style.css" media="screen">
+
+<!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js%22%3E</script> -->
 </head>
-<style>
-
-#header {
-  display: inline-flex;
-  position: relative;
-  overflow: hidden !important;
-  max-width: 100%;
-  background-color: rgba(255, 255, 255, 0);
-  text-align: center;
-  padding: 0 20px;
-  border-radius: 40px;
-  padding: 10px;
-}
-
-    #buttonA {
-        text-align:center;
-    }
-    #buttonB {
-        text-align:center;
-    }
-
-    .learnbutton {
-        color: #FFF;
-        background-color:rgb(148, 206, 233);
-
-    }
-    .learnbutton:hover {
-        color: rgb(0, 0, 0);
-        border-color: black;
-        transition: ease all 0.3s;
-        transform: scale(1.08);
-
-    }
-
-    .forumbutton {
-        color: #FFF;
-        background-color:rgb(148, 206, 233);
-    }
-    .forumbutton:hover {
-        color: rgb(0, 0, 0);
-        border-color: black;
-        transition: ease all 0.3s;
-        transform: scale(1.08);
-    }
-
-
-    #header {
-        display: flex;
-    }
-</style>
 <body>
 
-<div id = "options">
-    <div>
-        <div id="header">
-            <div id="buttonA">
-                <p><button type="button" class = "learnbutton" id="view-learn">Learn</button></p>
-            </div>
-            <div id="buttonB">
-                <p><button type="button" class = "forumbutton" id="forum">Forum</button></p>
-            </div>
-
-        </div>
-
-    </div>
-    <div id = "enter"> 
-        <img src="IMAGEHERE" alt="Enter" id = "enter" class="image vert-move" width = "75" height = "60" >
+    <div class="content">
+        <button class="learn">Learn</button>
+        <a herf="safespace/forum.html"><button class="forum">Forum</button></a>
+        <!-- <img src="IMAGEHERE" alt="Enter" id = "enter" class="image vert-move" width = "75" height = "60" > -->
     </div>
 
-<script src="popup.js"></script>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js%22%3E</script>
+
 </body>
 </html>
