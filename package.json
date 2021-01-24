@@ -24,7 +24,8 @@
     "express-handlebars": "^5.2.0",
     "fs": "0.0.1-security",
     "handlebars": "^4.7.6",
-    "microsoft-cognitiveservices-speech-sdk": "^1.14.1"
+    "microsoft-cognitiveservices-speech-sdk": "^1.14.1",
+    "node-aplay": "^1.0.3"
   },
   "devDependencies": {},
   "keywords": [],

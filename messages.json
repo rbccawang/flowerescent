@@ -1,1 +1,40 @@
-[{"text":"I have a lot of school assignments due and I just feel overwhelmed with the pressure to do well and also still excel in sports as well. I have a basketball competition coming up and I am also need to practice for that as well.","author":"Anonymus Student "},{"text":"Hi Anonymus Student, what are you stressed about exactly, classes, expectations, sports,etc?","author":"Juan"},{"text":"Hi all I feel overwhelmed with school, and I do not know what to do?","author":"Anonymus Student"},{"text":"That does seem like a lot of pressure.","author":"Juan"},{"text":"I recommend talking a step back and the doing something you enjoy. I know you have a lot you need to do, but it works better sometimes if you clear your mind. Meditate, listen to music, or whatever else you enjoy doing.","author":"Juan"}]
+[
+    
+    {
+        "text": "Hi A, what has gotten you stressed?",
+        "author": "Person"
+    },
+    {
+        "text": "Hi all, I have been having some issues with anxiety these past of days. I am not to sure what to do.",
+        "author": "A"
+    },
+    {
+        "text": "Thank you so much for the advice. I will take a break and listen to some music!",
+        "author": "Anonymus Student"
+    },
+    {
+        "text": "Sometimes you perform the best when you take a break, so I definetly agree with Juan on this. It has helped me many times too.",
+        "author": "Rose"
+    },
+    {
+        "text": "Do you think that I have enough time to do all of that? I am worried that I will fail my test if I don't study.",
+        "author": "Anonymus Student"
+    },
+    {
+        "text": "I recommend taking a step back and the doing something you enjoy. I know you have a lot you need to do, but it works better sometimes if you clear your mind. Meditate, listen to music, or whatever else you enjoy doing.",
+        "author": "Juan"
+    },
+    {
+        "text": "That does seem like a lot of pressure.",
+        "author": "Juan"
+    },
+    {
+        "text": "I have a lot of school assignments due and I just feel overwhelmed with the pressure to do well and also still excel in sports as well. I have a basketball competition coming up and I am also need to practice for that as well.",
+        "author": "Anonymus Student "
+    },
+    {
+        "text": "Hi Anonymus Student, what are you stressed about exactly, classes, expectations, sports,etc?",
+        "author": "Juan"
+    },
+    {
+        "text": "Hi all I feel overwhelmed with school, and I do not know what to do?","author":"Anonymus Student"}]
