@@ -44,3 +44,7 @@ function clearFields(){
     document.getElementById('message').value = ""
     document.getElementById('author').value = ""
 }
+
+
+
+
