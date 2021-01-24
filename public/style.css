@@ -24,7 +24,6 @@ button{
     font-size: .8em;
     font-weight: 700;
     height: 3.5em;
-    line-height: 3.65em;
     width: 8em;
     text-align: center;
     text-decoration: none;
@@ -43,11 +42,7 @@ button:hover{
     background-color:#7cb8cc;
     color:white;
 }
-button:focus {
-    outline: none;
-    background-color:#4b7b8b;
-    border-color:#4b7b8b;
-}
+
 a{
     text-decoration: none;
     
@@ -69,4 +64,32 @@ a{
     grid-template-columns: auto auto;
     align-items: right;
 }
-
+/*Forum*/
+.text-entry{
+    position: fixed; 
+    padding: 10px 10px 0px 10px; 
+    bottom: 10px;
+    right: 10px; 
+    /* Height of the footer*/  
+    height: 200px; 
+    background: #eee; 
+    border-radius: 2px;
+    width:500px
+}
+.message,
+.author{
+    width: 100%;
+    border-radius: 5px;
+    border:0px;
+    text-decoration: none;
+    padding:5px;
+    margin-top:-14px;
+}
+.author{
+    width:75%;
+}
+.messagebtn{
+    margin-top:-5px;
+    height:35px;
+    padding:-10px
+}
