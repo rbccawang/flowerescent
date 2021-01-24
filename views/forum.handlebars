@@ -1,13 +1,17 @@
 <div class="content">
     <h1>Forum</h1>
-    <div class="messages">
-
+    <h3>Messages</h3>
+    <div id="mes-container">
+        {{#each Mdata}}
+            {{> message}}
+        {{/each}}
     </div>
     <div class="text-entry" style= "color: black;">
         <p>Message</p>
-        <textarea class="message"></textarea>
+        <textarea id="message"></textarea>
         <p>Author</p>
-        <input class="author">
-        <button class="messagebtn">Message</button>
+        <input id="author">
+        <button id="messagebtn">Message</button>
+        <div id="warning">Please fill out all fields!</div>
     </div>
 </div>

@@ -1,11 +1,12 @@
 {
   "name": "safespace1",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "prestart": "npm run build",
+    "build": "handlebars views/partials/message.handlebars -f public/messageTemplate.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,13 @@
   },
   "homepage": "https://github.com/rebeccawang06/safespace#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
+    "fs": "0.0.1-security",
     "handlebars": "^4.7.6"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
